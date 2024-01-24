@@ -1,13 +1,13 @@
-# ..Modlishka..
+# ..modlishka..
 
-Modlishka is a powerful and flexible HTTP reverse proxy. It implements an entirely new and interesting approach of handling browser-based HTTP traffic flow, which allows it to transparently proxy multi-domain destination traffic, both TLS and non-TLS, over a single domain, without a requirement of installing any additional certificate on the client. What exactly does this mean? In short, it simply has a lot of potential, that can be used in many use case scenarios...
+modlishka is a powerful and flexible HTTP reverse proxy. It implements an entirely new and interesting approach of handling browser-based HTTP traffic flow, which allows it to transparently proxy multi-domain destination traffic, both TLS and non-TLS, over a single domain, without a requirement of installing any additional certificate on the client. What exactly does this mean? In short, it simply has a lot of potential, that can be used in many use case scenarios...
 
 From the security perspective, Modlishka can be currently used to:
 -	Support ethical phishing penetration tests with a transparent and automated reverse proxy component that has a universal 2FA “bypass” support.
 -  Wrap legacy websites with TLS layer, confuse crawler bots and automated scanners, etc.
 
 
-Modlishka was written as an attempt to overcome standard reverse proxy limitations and as a personal challenge to see what is possible with sufficient motivation and a bit of extra research time. 
+modlishka was written as an attempt to overcome standard reverse proxy limitations and as a personal challenge to see what is possible with sufficient motivation and a bit of extra research time. 
 The achieved results appeared to be very interesting and the tool was initially released and later updated with an aim to:
 - Highlight currently used two factor authentication ([2FA](https://blog.duszynski.eu/phishing-ng-bypassing-2fa-with-modlishka/)) scheme weaknesses, so adequate security solutions can be created and implemented by the industry.
 - Support other projects that could benefit from a universal and transparent reverse proxy.
@@ -52,7 +52,7 @@ Modlishka in action against an example two factor authentication scheme (SMS bas
 Installation
 ------------
 
-Latest source code version can be fetched from [here](https://github.com/drk1wi/modlishka/zipball/master) (zip) or [here](https://github.com/drk1wi/modlishka/tarball/master) (tar).
+Latest source code version can be fetched from [here](https://github.com/cult-of-vecna/modlishka/zipball/master) (zip) or [here](https://github.com/cult-of-vecna/modlishka/tarball/master) (tar).
 
 
 
@@ -62,7 +62,7 @@ Fetch the code with _'go install'_ :
 
 Compile manually:
 
-    $ git clone https://github.com/drk1wi/Modlishka.git
+    $ git clone https://github.com/cult-of-vecna/modlishka.git
     $ cd Modlishka
     $ make
     
@@ -156,19 +156,18 @@ Compile manually:
 
 Commercial Usage
 -------
-Modlishka is licensed under [this License](https://raw.githubusercontent.com/drk1wi/Modlishka/master/LICENSE). 
+Modlishka is licensed under [this License](https://raw.githubusercontent.com/cult-of-vecna/master/LICENSE). 
 
 For commercial, legitimate applications, please contact the author for the appropriate licensing arrangements.
 
 Credits 
 -------
-Author: Modlishka was designed and implemented by Piotr Duszyński ([@drk1wi](https://twitter.com/drk1wi)). All rights reserved.
+Author: modlishka was designed and implemented by lich-bot ([@cult-of-vecna(https://twitter.com/cult-of-vecna)). All rights reserved.
 
-See the list of [contributors](https://github.com/drk1wi/Modlishka/graphs/contributors) who participated in this project.
+See the list of [contributors](https://github.com/lich-bot/modlishka/graphs/contributors) who participated in this project.
 
 * sentence copied directly from another project .
 
 Disclaimer
 ----------
 This tool is made only for educational purposes and can be used in legitimate penetration tests or research only. Author does not take any responsibility for any actions taken by its users.
-
